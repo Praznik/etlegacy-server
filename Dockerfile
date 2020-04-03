@@ -16,12 +16,13 @@ RUN wget -nv $PAK_MIRROR/pak0.pk3 \
              $PAK_MIRROR/pak1.pk3 \
              $PAK_MIRROR/pak2.pk3 \
              $PAK_MIRROR/mp_bin.pk3 \
-             $PAK_MIRROR/supplydepot3.pk3 \
+             $PAK_MIRROR/supplydepot2.pk3 \
              $PAK_MIRROR/sw_goldrush_te.pk3 \
              $PAK_MIRROR/te_valhalla.pk3 \
              $PAK_MIRROR/tc_base.pk3 \
              $PAK_MIRROR/caen_4.pk3 \
              $PAK_MIRROR/braundorf_final.pk3 \
+             $PAK_MIRROR/reactor_final.pk3 \
              $PAK_MIRROR/mp_sillyctf.pk3
 
 COPY etl_server.cfg $ETL_PATH/etmain/
