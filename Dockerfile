@@ -29,12 +29,12 @@ RUN wget -nv $PAK_MIRROR/pak0.pk3 \
              $PAK_MIRROR/etl_supply_v8.pk3
 
 COPY etl_server.cfg $ETL_PATH/etmain/
+
 ARG SERVER_PASSWORD
-RUN sed -i "s/changemegpw/$SERVER_PASSWORD/" $ETL_PATH/etmain/etl_server.cfg
 ARG REFEREE_PASSWORD
-RUN sed -i "s/changemerconpw/$REFEREE_PASSWORD/" $ETL_PATH/etmain/etl_server.cfg
 ARG RCON_PASSWORD
-RUN sed -i "s/changemerefpw/$RCON_PASSWORD/" $ETL_PATH/etmain/etl_server.cfg
+
+RUN sed -i -e "s/changemegpw/$SERVER_PASSWORD/g ; s/changemerefpw/$REFEREE_PASSWORD/g ; s/changemerconpw/$RCON_PASSWORD/g" $ETL_PATH/etmain/etl_server.cfg
 
 EXPOSE 27960/udp
 
