@@ -4,9 +4,9 @@ ENV ETL_PATH /root/etlegacy
 ENV ETL_FOLDER etlegacy-v2.79.0-x86_64
 ENV ETL_FILENAME $ETL_FOLDER.tar.gz
 ENV ETL_URL https://www.etlegacy.com/download/file/344
-ENV PAK_MIRROR https://et.clan-etc.de/etmain/
-ENV PAK_MIRROR2 https://www.harryhomers.org/et/download/etmain/
-ENV PAK_MIRROR3 http://aciz.etjump.com/etlserver/27960/etmain/
+ENV PAK_MIRROR http://et.clan-etc.de/etmain
+ENV PAK_MIRROR2 http://www.harryhomers.org/et/download/etmain
+ENV PAK_MIRROR3 http://aciz.etjump.com/etlserver/27960/etmain
 
 RUN apt-get update -y && apt-get install -y wget
 RUN wget -nv -O $ETL_FILENAME $ETL_URL
