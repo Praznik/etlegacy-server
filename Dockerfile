@@ -21,7 +21,7 @@ RUN wget -nv $PAK_MIRROR3/pak0.pk3 \
              $PAK_MIRROR/braundorf_b4.pk3 \
              $PAK_MIRROR/CTF_Multi2.pk3 \
              $PAK_MIRROR/erdenberg_b3.pk3 \
-             $PAK_MIRROR/escape2.pk3 \
+             $PAK_MIRROR/te_escape2.pk3 \
              $PAK_MIRROR/et_beach.pk3 \
              $PAK_MIRROR2/kothet2.pk3 \
              $PAK_MIRROR2/mp_sillyctf.pk3 \
