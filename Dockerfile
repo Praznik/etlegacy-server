@@ -14,10 +14,10 @@ RUN tar -xzf $ETL_FILENAME && rm -f $ETL_FILENAME
 RUN mv $ETL_FOLDER $ETL_PATH
 
 WORKDIR $ETL_PATH/etmain
-RUN wget -nv $PAK_MIRROR/pak0.pk3 \
-             $PAK_MIRROR/pak1.pk3 \
-             $PAK_MIRROR/pak2.pk3 \
-             $PAK_MIRROR/mp_bin.pk3 \
+RUN wget -nv $PAK_MIRROR3/pak0.pk3 \
+             $PAK_MIRROR3/pak1.pk3 \
+             $PAK_MIRROR3/pak2.pk3 \
+             $PAK_MIRROR3/mp_bin.pk3 \
              $PAK_MIRROR/braundorf_b4.pk3 \
              $PAK_MIRROR/CTF_Multi2.pk3 \
              $PAK_MIRROR/erdenberg_b3.pk3 \
