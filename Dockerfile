@@ -22,7 +22,9 @@ RUN wget -nv $PAK_MIRROR/pak0.pk3 \
              $PAK_MIRROR2/kothet2.pk3 \
              $PAK_MIRROR2/mp_sillyctf.pk3 \
              $PAK_MIRROR2/multi_huntplace.pk3 \
+             $PAK_MIRROR/sw_battery.pk3 \
              $PAK_MIRROR/sw_goldrush_te.pk3 \
+             $PAK_MIRROR/sw_oasis_b3.pk3 \
              $PAK_MIRROR/te_valhalla.pk3 \
              $PAK_MIRROR/tc_base.pk3 \
              $PAK_MIRROR/etl_adlernest_v3.pk3 \
